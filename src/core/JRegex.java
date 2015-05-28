@@ -8,6 +8,14 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import javax.swing.*;
 
+/*
+ *  Anantha Natarajan S
+ *  May 2015	
+ *  http://ananth.co.in
+ * 
+ *  JRegex is a simple GUI tool to quickly check if a text matches a pattern or not
+ *  
+ */
 
 public class JRegex implements ActionListener {
 
