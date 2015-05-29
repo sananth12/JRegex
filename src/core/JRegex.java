@@ -9,8 +9,7 @@ import java.util.regex.Pattern;
 import javax.swing.*;
 
 /*
- *  Anantha Natarajan S
- *  May 2015	
+ *  @author Anantha Natarajan S, May 2015	
  *  http://ananth.co.in
  * 
  *  JRegex is a simple GUI tool to quickly check if a text matches a pattern or not
@@ -30,6 +29,8 @@ public class JRegex implements ActionListener {
 	}
 
 	public JRegex(){
+		
+		// GUI setup, need to segregate this part.
 		frame = new JFrame();
 		frame.setSize(450, 450);
 		frame.setTitle("Regex Tool - sananth12");
@@ -64,7 +65,9 @@ public class JRegex implements ActionListener {
 		frame.setVisible(true);
 
 	}
-
+	
+	// Checks for Regex pattern in text
+	
 	public void actionPerformed(ActionEvent e) {
 
 		String text = inputField.getText();
