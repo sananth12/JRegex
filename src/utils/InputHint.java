@@ -8,6 +8,11 @@ import java.awt.event.FocusListener;
 import javax.swing.plaf.basic.BasicTextFieldUI;
 import javax.swing.text.JTextComponent;
 
+/*
+ * Contains InputHint, an UI for the textFields which
+ * provides HTML5 type place holders.
+ *  
+ */
 
 public class InputHint extends BasicTextFieldUI implements FocusListener {
 
